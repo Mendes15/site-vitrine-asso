@@ -190,6 +190,79 @@ nav>ul li a {
     border: 1px solid #000;
 }
 
+main{
+     /* display: flex;  
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: space-between;*/
+}
+
+h2{ 
+    /* centrer tout mes titres */
+text-align: center;
+margin: 30px;
+
+}
+
+.box-actus{
+    /* configuration des articles actus */
+    background-color: slateblue;
+
+    width: 400px;
+    height: 110px;
+    margin: 15px;
+    
+  
+}
+
+    /* border: yellowgreen solid;  */
+    .section-actus,#section-maps{
+    width: 860px;
+    height: 15cm;
+    background-color:grey;
+    margin: 10px;
+     display: flex;
+     flex-direction: column;
+   align-items: center; 
+    /* flex-wrap: wrap; 
+    flex-direction: column;
+    justify-content: space-around;*/
+  
+}
+
+
+
+#section-maps{
+    display: flex;
+}
+iframe{
+    /* map street centre */
+    align-items: center;
+    margin: 0px;
+}
+.section-actions{
+    
+    width: 860px;
+    height: 15cm;
+    background-color:grey;
+    margin: 10px;
+ }
+ .parent-box-action{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     width: 100%;
+     
+     
+ }
+
+.section-actions article{
+    width: 40%;
+    height: 150px;
+    background-color: lightcoral;
+    margin: 10px;
+}
+
 /* footer css style section */
 
 footer {
