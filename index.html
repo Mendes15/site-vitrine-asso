@@ -6,25 +6,30 @@
     <meta charset="UTF-8">
     <meta name="description" content="Site vitrine association à but non lucratif crée par Erdal et Maria">
     <meta name="keywords" content="Association, but non lucratif, faire un don, bénévole, partenaires">
-    <meta name="description" content="Site vitrine association à but non lucratif">
     <meta name="author" content="Maria / Erdal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style_index.css">
+    <link rel="stylesheet" href="./css/style_events.css">
+    <link rel="stylesheet" href="./css/responsive_index.css">
+    <link rel="stylesheet" href="./css/responsive_events.css">
     <title>Document</title>
 </head>
 
 <body>
-<!--Header & nav section-->
+    <!--Header & nav section-->
+
     <header>
 
-        <figure>
-            <img src="./images/logo.jpg" alt="Logo du site association à but non lucratif">
-        </figure>
-
         <nav>
-            <ul>
-                <li>X Menu</li>
+            <figure class="imgContainer">
+                <img src="./images/logo.jpg" alt="Logo du site association à but non lucratif">
+            </figure>
+
+            <button id="button-menu-hover">&#9776; <span>Menu</span></button>
+
+            <ul class="menuList">
                 <li><a href="#">Page d'accueil</a></li>
                 <li><a href="#">Actualités</a></li>
                 <li><a href="#">Notre mission</a></li>
@@ -33,12 +38,12 @@
             </ul>
         </nav>
 
-        <section class="contribuer">
+        <section class="subHeaderSection">
             <a href="">Faire un don</a>
             <a href="">Devenir bénévole</a>
         </section>
-
     </header>
+
     <!--Main section-->
     <main>
         <section class="section-actus">
@@ -48,9 +53,9 @@
         </section>
 
 <!--Où nous trouver section-->
-
-
         <section id="section-maps">
+        <!--Où nous trouver section-->
+        <section>
             <h2>Où nous trouver?</h2>
             <article>
                 <iframe
@@ -59,40 +64,56 @@
                     tabindex="0"></iframe>
             </article>
         </section>
-    </main>
+   
   <!--Our actions section-->
     <section class="section-actions">
         <h2>Nos Actions</h2>
-    <div class="parent-box-action">
-        <article class="box-actions"></article>
-        <article class="box-actions"></article>
-        <article class="box-actions"></article>
-        <article class="box-actions"></article>
-    </div>
+        <div class="parent-box-action">
+            <article class="box-actions"></article>
+            <article class="box-actions"></article>
+            <article class="box-actions"></article>
+            <article class="box-actions"></article>
+        </div>
     </section>
 
-  <!--Btn call to action-->
-    <h2>Devenir Bénévole</h2>
-    <button>S'engager</button>
+    <!--Btn call to action-->
+    <section class="benevolat">
+        <h2>Devenir Bénévole</h2>
+        <button>S'engager</button>
+    </section>
 
-  <!-- Btn call to action-->
-    <h2>Faire un Don</h2>
-    <button>Faire un Don</button>
-
-    <h2>Nos Partenaires</h2>
-    <figure></figure> <!-- Pour les logos des partenaires -->
-    <figure></figure>
+    <!-- Btn call to action-->
+    <section class="faireUnDon">
+        <h2>Faire un Don</h2>
+        <button>Faire un Don</button>
+    </section>
+ 
+    <section class="nosPartenaires">
+        <h2>Nos Partenaires</h2>
+        <article>
+            <figure></figure> <!-- Pour les logos des partenaires -->
+            <figure></figure>
+            <figure></figure>
+        </article>
+    </section>
+</main>
 
     <footer>
-      <article>Contacts</article>
-      
-      <article id="liens-réseaux-sociaaux">
-            <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-      </article>
+        <article>
+            <p>Contacts : 1 Rue aguste renoir 93600 Aulnay sous bois</p>
+        </article>
+
+        <article id="liens-réseaux-sociaux">
+            <p>
+                <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </p>
+        </article>
     </footer>
+      
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
