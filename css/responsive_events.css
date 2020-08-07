@@ -1,0 +1,15 @@
+@media screen and (min-width: 1025px){
+
+    h1 {
+        text-align: center;
+    }
+    .iframeContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iframeEvents {
+        width:80%;  
+        height: 600px; 
+    }
+}
