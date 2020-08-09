@@ -60,8 +60,8 @@ body {
 }
 
 .imgContainer img {
-    width: 25%;
-    height: 60px;
+    width: 58%;
+    height: 72px;
 }
 
 nav {
@@ -190,73 +190,78 @@ nav>ul li a {
     border: 1px solid #000;
 }
 
-main{
-     /* display: flex;  
+main {
+    /* display: flex;  
     flex-wrap: wrap; 
     flex-direction: row;
     justify-content: space-between;*/
 }
 
-h2{ 
+h2 {
     /* centrer tout mes titres */
-text-align: center;
-margin: 30px;
+    text-align: center;
+    margin: 30px;
 
 }
 
-.box-actus{
+.box-actus {
     /* configuration des articles actus */
     background-color: slateblue;
 
     width: 400px;
     height: 110px;
     margin: 15px;
-    
-  
+
+
 }
 
-    /* border: yellowgreen solid;  */
-    .section-actus,#section-maps{
-    width: 860px;
+/* border: yellowgreen solid;  */
+.section-actus,
+#section-maps {
+    width: 100%;
     height: 15cm;
-    background-color:grey;
-    margin: 10px;
-     display: flex;
-     flex-direction: column;
-   align-items: center; 
+    /* background-color: grey; */
+    border: 1px solid #aeaeae;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     /* flex-wrap: wrap; 
     flex-direction: column;
     justify-content: space-around;*/
-  
+
 }
 
 
 
-#section-maps{
+#section-maps {
     display: flex;
 }
-iframe{
+
+iframe {
     /* map street centre */
     align-items: center;
     margin: 0px;
 }
-.section-actions{
-    
-    width: 860px;
-    height: 15cm;
-    background-color:grey;
-    margin: 10px;
- }
- .parent-box-action{
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
-     width: 100%;
-     
-     
- }
 
-.section-actions article{
+.section-actions {
+
+    width: 100%;
+    height: 15cm;
+    background-color: grey;
+    margin: 10px;
+}
+
+.parent-box-action {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+
+}
+
+.section-actions article {
     width: 40%;
     height: 150px;
     background-color: lightcoral;
@@ -266,15 +271,17 @@ iframe{
 /* footer css style section */
 
 footer {
+    
     width: 100%;
     background-color: #aeaeae;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-footer>article {
+footer article {
     margin: 0;
     padding-bottom: 0;
 }
@@ -286,7 +293,35 @@ footer>article {
 
 #liens-réseaux-sociaux p {
     padding-top: 0;
-    font-size: 2.5rem;
     display: flex;
     justify-content: space-around;
+}
+
+.fa-facebook-official,
+.fa-twitter,
+.fa-linkedin-square,
+.fa-youtube-play {
+    font-size: 3rem;
+    color: #000;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.fa-facebook-official:hover {
+    color: #3B5998;
+}
+
+.fa-twitter:hover {
+    color: #00ACEE;
+}
+
+.fa-linkedin-square:hover {
+    color: #0E76A8;
+}
+
+.fa-youtube-play:hover {
+    color: #C4302B;
 }

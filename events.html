@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Site vitrine association à but non lucratif crée par Erdal et Maria">
+    <meta name="keywords" content="Association, but non lucratif, faire un don, bénévole, partenaires">
+    <meta name="author" content="Maria / Erdal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style_index.css">
     <link rel="stylesheet" href="./css/style_events.css">
+    <link rel="stylesheet" href="./css/responsive_index.css">
+    <link rel="stylesheet" href="./css/responsive_events.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Evenement à venir</title>
 </head>
+
 <body>
     <header>
-        <figure>
-            <img src="./images/logo.jpg" alt="Logo du site association à but non lucratif">
-        </figure>
 
         <nav>
-            <ul>
-                <li>X Menu</li>
+            <figure class="imgContainer">
+                <img src="/images/logo.svg" alt="Logo du site association à but non lucratif">
+            </figure>
+
+            <button id="button-menu-hover">&#9776; <span>Menu</span></button>
+
+            <ul class="menuList">
                 <li><a href="#">Page d'accueil</a></li>
                 <li><a href="#">Actualités</a></li>
                 <li><a href="#">Notre mission</a></li>
@@ -22,24 +36,71 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-    </header>
-     <!-- video de presentation -->
-    <article>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2ICQlRO98l4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </article>
-    <h1>Venez nous Rejoindre dans notre prochaine évenement</h1>
-    <!-- formulaire -->
-    <form action="">
-        <label for="">Prénom</label>
-        <input type="text" >
-        <label for="">Nom</label>
-        <input type="text">
-        <label for="">E-mail</label>
-        <input type="text">
-        <label for="">Choisissez une date:</label>
-        <input type="checkbox" name="" id=""> 10/08/2020 à 15h
-        <input type="checkbox" name="" id=""> 12/08/2020 à 10h
-    </form>
 
+        <section class="subHeaderSection">
+            <a href="" class="don-btn">Faire un don</a>
+            <a href="" class="benevole-btn">Devenir bénévole</a>
+           
+        </section>
+    </header>
+
+    <main>
+        <!-- video de presentation -->
+        <h1 class="my-5">Venez nous Rejoindre dans notre prochaine évenement</h1>
+        <article class="iframeContainer">
+            <iframe class="iframeEvents" width="560" height="315" src="https://www.youtube.com/embed/2ICQlRO98l4" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </article>
+
+
+        <!-- formulaire -->
+        <section class="mb-5">
+            <h2 class="my-5">Inscrivez-vous dès maintenant!</h2>
+
+            <form class="container">
+                <div class="form-group">
+                    <label for="prenom">Prenom</label>
+                    <input type="prenom" class="form-control" id="prenom" aria-describedby="prenom">
+                </div>
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="nom" class="form-control" id="nom" aria-describedby="nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                </div>
+    
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="date1">
+                    <label class="form-check-label pl-3" for="date1"> Date : 10 / 08 / 2020 (Aulnay sous bois) - de 10h à 15h</label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="date2">
+                    <label class="form-check-label pl-3" for="date2"> Date : 11 / 08 / 2020 (Paris) - de 15h à 18h</label>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <article>
+            <p>Contacts : 1 Rue aguste renoir 93600 Aulnay sous bois</p>
+        </article>
+
+        <article id="liens-réseaux-sociaux">
+            <p>
+                <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </p>
+        </article>
+    </footer>
+
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
