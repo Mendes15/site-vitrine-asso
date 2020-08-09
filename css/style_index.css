@@ -209,10 +209,19 @@ nav>ul li a {
 }
 
 .nosPartenaires>article>figure {
-    width: 15%;
-    height: 80px;
+    max-width: 100%;
+    height: 210px;
     border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.nosPartenaires>article>figure:last-child {
+    margin-top: 50px;
+}
+
+
 
 
 
@@ -225,13 +234,10 @@ h2 {
 
 .box-actus {
     /* configuration des articles actus */
-    background-color: #e5007d;
-
+background-color: #e5007d;
     width: 400px;
     height: 110px;
     margin: 15px;
-
-
 }
 
 
@@ -288,7 +294,6 @@ iframe {
 /* footer css style section */
 
 footer {
-
     width: 100%;
     background-color: #aeaeae;
     text-align: center;
@@ -296,6 +301,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 footer article {
