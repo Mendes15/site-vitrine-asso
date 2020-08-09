@@ -11,5 +11,28 @@
     .iframeEvents {
         width:80%;  
         height: 600px; 
+       
     }
+
+       
+    }
+
+    #liens-réseaux-sociaux p {
+    
+    display: flex;
+    justify-content: center;
+    }
+
+    #liens-réseaux-sociaux a{
+        margin: 25px;
+    }
+    
+    .subHeaderSection a{
+    
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* border: 5px greenyellow solid; */
+    }
+   
 }
