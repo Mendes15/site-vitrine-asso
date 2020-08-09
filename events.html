@@ -13,17 +13,15 @@
     <link rel="stylesheet" href="./css/style_events.css">
     <link rel="stylesheet" href="./css/responsive_index.css">
     <link rel="stylesheet" href="./css/responsive_events.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Evenement à venir</title>
 </head>
 
 <body>
     <header>
 
-        <nav>
+        <nav class="d-flex">
             <figure class="imgContainer">
-                <img src="/images/logo.svg" alt="Logo du site association à but non lucratif">
+                <img src="./images/logo.svg" alt="Logo du site association à but non lucratif">
             </figure>
 
             <button id="button-menu-hover">&#9776; <span>Menu</span></button>
@@ -31,6 +29,7 @@
             <ul class="menuList">
                 <li><a href="#">Page d'accueil</a></li>
                 <li><a href="#">Actualités</a></li>
+                <li><a href="./events.html">Évenements</a></li>
                 <li><a href="#">Notre mission</a></li>
                 <li><a href="#">Nous soutenir</a></li>
                 <li><a href="#">Contact</a></li>
@@ -48,41 +47,53 @@
         <!-- video de presentation -->
         <h1 class="my-5">Venez nous Rejoindre dans notre prochaine évenement</h1>
         <article class="iframeContainer">
-            <iframe class="iframeEvents" width="560" height="315" src="https://www.youtube.com/embed/2ICQlRO98l4" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            <iframe class="iframeEvents" width="560" height="315" src="https://www.youtube.com/embed/2ICQlRO98l4"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </article>
 
 
         <!-- formulaire -->
-        <section class="mb-5">
-            <h2 class="my-5">Inscrivez-vous dès maintenant!</h2>
+        <section class="formulaire">
 
-            <form class="container">
-                <div class="form-group">
-                    <label for="prenom">Prenom</label>
-                    <input type="prenom" class="form-control" id="prenom" aria-describedby="prenom">
+            <h1 class="titreH1" id="contacterMoi">Inscrivez-vous dès maintenant!</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi dolore culpa odio est dolorem voluptates
+                fuga, doloribus quae id itaque alias! Facere, rerum modi. Molestias voluptatem nemo perspiciatis vitae
+                officiis!</p>
+
+            <form id="contact-forms" action="" role="form">
+
+                <div class="inputButtonText">
+                    <div>
+                    <input class="inputBox" type="text" name="lastName" id="lastName" placeholder="Prénom">
+                    </div>
+
+                    <div>
+                    <input class="inputBox" type="text" name="firstName" id="firstName" placeholder="Nom">
+                    </div> 
+                    <div>
+                    <input class="inputBox" type="email" name="email" id="email" placeholder="Indiquer votre adresse email">
+                    </div>
+
+                    <div class="checkboxes">
+                        <label for="date1"> Date : 10 / 08 / 2020 (Aulnay sous bois) - de 10h à 15h</label>
+                        <input type="checkbox" id="date1">
+                    </div>
+                    <div class="checkboxes">
+                        <label for="date2"> Date : 11 / 08 / 2020 (Paris) - de 15h à 18h
+                            <input type="checkbox" id="date2">
+                        </label>
+                        
+                    </div>
+
                 </div>
-                <div class="form-group">
-                    <label for="nom">Nom</label>
-                    <input type="nom" class="form-control" id="nom" aria-describedby="nom">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                </div>
-    
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="date1">
-                    <label class="form-check-label pl-3" for="date1"> Date : 10 / 08 / 2020 (Aulnay sous bois) - de 10h à 15h</label>
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="date2">
-                    <label class="form-check-label pl-3" for="date2"> Date : 11 / 08 / 2020 (Paris) - de 15h à 18h</label>
-                </div>
-                <button type="submit" class="btn btn-primary w-100">Submit</button>
+
+                <input class="inputBox" type="submit" value="Envoyer le message" id="buttonEnvoyerReset">
+                <input class="inputBox" type="reset" value="Réinitialiser" id="buttonEnvoyerReset">
             </form>
         </section>
+
     </main>
 
     <footer>
