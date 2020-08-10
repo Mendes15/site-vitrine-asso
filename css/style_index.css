@@ -1,6 +1,7 @@
 /* format mobile */
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
 /* Variables */
 
 /* Header css style section */
-/*background header  */
 .subHeaderSection {
     background: url('../images/header_image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -33,8 +33,9 @@ body {
     align-items: space-around;
     align-content: center;
     flex-wrap: wrap;
-    
+
 }
+
 /* set up title */
 .subHeaderSection h1 {
     width: 100%;
@@ -57,9 +58,10 @@ body {
     -ms-transition: all .3s;
     -o-transition: all .3s;
 }
+
 /* set up btn devenir bénévole */
-.subHeaderSection>a:last-child{
-padding:25px 84px;
+.subHeaderSection>a:last-child {
+    padding: 25px 84px;
 }
 
 
@@ -73,8 +75,9 @@ padding:25px 84px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    
+
 }
+
 /* background img */
 .imgContainer {
     margin: 0;
@@ -86,6 +89,7 @@ padding:25px 84px;
     height: 72px;
     margin: 5px;
 }
+
 /* header set up  */
 nav {
     position: relative;
@@ -234,7 +238,7 @@ h2 {
 
 .box-actus {
     /* configuration des articles actus */
-background-color: #e5007d;
+    background-color: #e5007d;
     width: 400px;
     height: 110px;
     margin: 15px;
@@ -250,7 +254,7 @@ background-color: #e5007d;
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
 
 }
 
@@ -287,7 +291,7 @@ iframe {
 .section-actions article {
     width: 40%;
     height: 160px;
-    background-color:lightgrey;
+    background-color: lightgrey;
     margin: 10px;
 }
 
@@ -310,8 +314,9 @@ footer article {
 }
 
 #liens-réseaux-sociaux {
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-    margin: 0;
 }
 
 #liens-réseaux-sociaux p {

@@ -18,15 +18,7 @@
        
     }
 
-    #liens-réseaux-sociaux p {
-    
-    display: flex;
-    justify-content: center;
-    }
 
-    #liens-réseaux-sociaux a{
-        margin: 25px;
-    }
     
     .subHeaderSection a{
     
