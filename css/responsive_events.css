@@ -1,27 +1,38 @@
 /* format pc */
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1025px) {
 
     h1 {
         text-align: center;
     }
+
+    main > h2 {
+        margin-top: 6rem;
+    }
+
     .iframeContainer {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .iframeEvents {
-        width:80%;  
-        height: 600px; 
-       
+        width: 80%;
+        height: 600px;
+
     }
 
-    
-    .subHeaderSection a{
-    
-    padding: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
-    /* border: 5px greenyellow solid; */
+
+    .subHeaderSection a {
+
+        padding: 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+        /* border: 5px greenyellow solid; */
     }
-   
+
+    .formulaire {
+        width: 80%;
+        margin-top: 6rem;
+    }
+
 }
