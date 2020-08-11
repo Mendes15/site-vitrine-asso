@@ -69,12 +69,12 @@ input:focus {
 }
 
 #buttonEnvoyerReset {
-    background-color: #4A99CA;
+    background-color: #e5007d;
     font-weight: 600;
     font-size: 18px;
     color: #fff;
 }
 
 #buttonEnvoyerReset:hover {
-    background-color: #6298b9;
+    background-color: #e5007d;
 }
