@@ -13,10 +13,10 @@ body {
 /* Variables */
 :root {
     /* nav colors */
-    --nav-bg-color:white;
+    --nav-bg-color:#000;
     /* btn colors for headers */
  
---btn-color: white;
+    --btn-color: white;
     --btn-bg-color:#e5007d;
 }
 
@@ -88,7 +88,7 @@ body {
 
 .imgContainer img {
     width: 100%;
-    height: 72px;
+    height: 60px;
     margin: 5px;
 }
 
