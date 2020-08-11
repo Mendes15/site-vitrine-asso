@@ -13,10 +13,11 @@ body {
 /* Variables */
 :root {
     /* nav colors */
-    --nav-bg-color: #000;
+    --nav-bg-color:white;
     /* btn colors for headers */
-    --btn-color: brown;
-    --btn-bg-color: orange;
+ 
+--btn-color: white;
+    --btn-bg-color:#e5007d;
 }
 
 /* Variables */
@@ -79,7 +80,7 @@ body {
 
 }
 
-/* background img */
+/* logo*/
 .imgContainer {
     margin: 0;
     padding: 0;
@@ -175,7 +176,7 @@ nav>ul li a {
 }
 
 .benevolat>button:hover {
-    background-color: #87cefa;
+    background-color: #e5007d;
     border-color: #87cefa;
     color: #fff;
 }
@@ -185,7 +186,7 @@ nav>ul li a {
 }
 
 .faireUnDon>button:hover {
-    background-color: #87cefa;
+    background-color: #e5007d;
     border-color: #87cefa;
     color: #fff;
 }
@@ -353,4 +354,11 @@ footer article {
 
 .fa-youtube-play:hover {
     color: #C4302B;
+}
+
+.subHeaderSection a{
+    
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
