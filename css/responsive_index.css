@@ -58,4 +58,10 @@
     height: 400px;
 }
 
+#liens-réseaux-sociaux {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
 }
