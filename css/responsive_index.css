@@ -16,7 +16,7 @@
     }
 
     nav ul {
-        width: 60%;
+        width: 65%;
         padding-top: 0px;
         margin: initial;
         background-color: var(--nav-bg-color);
@@ -39,6 +39,12 @@
     nav>ul>li>a {
         color: #000;
         font-weight: bold;
+    }
+
+    .imgContainer img {
+        width: 100%;
+        height: 75px;
+        margin: 5px;
     }
 
     

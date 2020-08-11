@@ -1,0 +1,6 @@
+main-color :
+    - background : #f3f3f3;
+    - button-colors : #e5007d;
+
+fonts : 
+    - font-family : Arial,Helvetica,sans-serif
