@@ -11,42 +11,41 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style_index.css">
     <link rel="stylesheet" href="./css/responsive_index.css">
-    <link rel="stylesheet" href="/css/responsive_events.css">
-    <link rel="stylesheet" href="/css/style_events.css">
+    <link rel="stylesheet" href="./css/style_events.css">
+    <link rel="stylesheet" href="./css/responsive_events.css">
     <title>Evenement à venir</title>
 </head>
 
 <body>
     <header>
 
-        <nav class="d-flex">
+        <nav>
             <figure class="imgContainer">
-                <img src="./images/logo.svg" alt="Logo du site association à but non lucratif">
+                <a href="./index.html"><img src="./images/logo.svg" alt="Logo du site association à but non lucratif"></a>
             </figure>
 
             <button id="button-menu-hover">&#9776; <span>Menu</span></button>
 
             <ul class="menuList">
-                <li><a href="#">Page d'accueil</a></li>
-                <li><a href="#">Actualités</a></li>
+                <li><a href="./index.html">Page d'accueil</a></li>
+                <li><a href="#actualites">Actualités</a></li>
                 <li><a href="./events.html">Évenements</a></li>
                 <li><a href="#">Notre mission</a></li>
-                <li><a href="#">Nous soutenir</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#faireUnDonSection">Nous soutenir</a></li>
+                <li><a href="#contacterMoi">Contact</a></li>
             </ul>
         </nav>
 
         <section class="subHeaderSection">
             <h1>Évenements</h1>
-            <a href="" class="don-btn">Faire un don</a>
-            <a href="" class="benevole-btn">Devenir bénévole</a>
-           
+            <a href="#faireUnDonSection" class="don-btn">Faire un don</a>
+            <a href="#benevolatSection" class="benevole-btn">Devenir bénévole</a> 
         </section>
     </header>
 
     <main>
         <!-- video de presentation -->
-        <h2 class="my-5">Venez nous Rejoindre dans notre prochaine évenement</h2>
+        <h2>Venez nous Rejoindre dans notre prochaine évenement</h2>
         <article class="iframeContainer">
             <iframe class="iframeEvents" width="560" height="315" src="https://www.youtube.com/embed/2ICQlRO98l4"
                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

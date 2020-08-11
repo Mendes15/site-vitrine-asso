@@ -11,17 +11,6 @@ main>h1 {
     text-align: center;
 }
 
-footer {
-    position: absolute;
-    width: 100%
-}
-
-#liens-réseaux-sociaux {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 .imgContainer {
     display: inline-block !important;
 }
