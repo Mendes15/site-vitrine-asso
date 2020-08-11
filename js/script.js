@@ -5,6 +5,9 @@ let btn = document.getElementById('button-menu-hover');
 let menuList = document.querySelector('.menuList');
 
 
-btn.addEventListener("click", () => {
+btn.addEventListener("click", (e) => {
+    e.stopPropagation()
     menuList.classList.toggle('show');
- });
+});
+
+document.addEventListener('click', () => menuList.classList.remove('show'));
